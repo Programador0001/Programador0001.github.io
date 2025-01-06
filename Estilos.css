@@ -1,0 +1,218 @@
+body {
+    background: #F1F1F1 ;
+    font-family: Arial, sans-serif;
+}
+
+
+
+.blog-header {
+    text-align: center;
+    margin: 40px 0;
+    color: #343a40;
+}
+
+.blog-header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.blog-header p {
+    
+    
+    font-size: 1.25rem;
+    color: #6c757d;
+}
+
+.blog-post {
+    width: 90%;
+    height: auto;
+    position: relative;
+    
+    left: 40px;
+    margin-bottom: 50px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.blog-post-title {
+    font-size: 2rem;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.blog-post .text-muted {
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+}
+
+.blog-post p {
+    line-height: 1.6;
+}
+
+.footer {
+    background-color: #343a40;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.9rem;
+}
+
+
+.img-custom {
+    width: 100%; 
+    max-width: 600px;
+    height: auto; 
+    border-radius: 10px; 
+    margin-top: 20px;
+    float: right; 
+    margin-left: 20px; 
+  }
+  .col-md-4 {
+    position: relative;
+    right: 60px;
+}
+
+.col-md-6 {
+    width: 40%;
+}
+
+
+.recipe-info {
+    border: 2px solid #ccc; /* Borde gris alrededor de toda la receta */
+    border-radius: 8px; /* Bordes redondeados */
+    padding: 20px; /* Espaciado interno en todo el contenedor */
+    background-color: #fafafa; /* Fondo claro */
+    box-shadow: 0 4px 6px rgba(187, 143, 143, 0.1); /* Sombra ligera para destacar */
+    max-width: 800px; /* Ancho máximo del cuadro */
+    margin: 20px auto; /* Centrar el cuadro horizontalmente */
+    display: flex;
+    flex-direction: column; /* Alinear las secciones de manera vertical */
+    }
+  
+  .properties {
+    font-size: 14px;
+    color: #555; /* Color de texto */
+    margin-bottom: 15px;
+  }
+  
+  .properties.inline {
+    margin-top: 10px;
+  }
+  
+  .ingrediente-titulo {
+    font-size: 22px;
+    font-weight: bold;
+    color: #ff6600; /* Color naranja para subtítulos */
+    margin-bottom: 10px;
+  }
+  
+  .ingrediente.titulo .subtitulo {
+    font-size: 18px;
+    color: #007bff; /* Color azul para subgrupos */
+    font-weight: bold;
+  }
+  
+  .ingredientes ul {
+    list-style-type: none; /* Quitar viñetas */
+    padding-left: 0;
+  }
+  
+  .ingrediente {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  
+  .ingrediente input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+
+.strong{
+    font-weight: bold;
+}
+
+.ingrediente-titulo{
+    font-weight: bold;
+    position: relative;
+    top: -1px;
+}
+
+.ingrediente{
+    font: condensed 120% sans-serif;
+    font-size: 17px;
+}
+
+.col-md-10{
+  border: 2px solid #ccc; /* Borde gris */
+  border-radius: 8px; /* Bordes redondeados */
+  padding: 20px; /* Espaciado interno */
+  background-color: #f8f8f8; /* Fondo claro */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+  max-width: 800px; /* Ancho máximo del cuadro */
+  margin: 20px auto; /* Centrar el cuadro horizontalmente */
+  display: flex;
+  flex-direction: column; /* Coloca los elementos en una columna */
+  align-items: center; /* Centra los elementos horizontalmente */
+}
+
+
+/* OTRA PARTE */
+.col-md-10 img {
+  display: block;
+  margin: 20px 0;
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+}
+
+ol li {
+  margin-bottom: 20px; /* Aumenta el espacio entre los elementos de la lista */
+  font-size: 18px; /* Tamaño de fuente para el texto normal */
+  line-height: 1.6; /* Para mejorar el espaciado entre las líneas */
+  margin-bottom: 20px;
+
+
+
+}
+
+.highlight {
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+svg{
+  color:coral
+}
+#firefox{
+  color: blue
+}
+form{
+  margin:40%
+}
